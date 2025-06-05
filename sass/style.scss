@@ -1,0 +1,719 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Balsamiq Sans";
+}
+
+header {
+  padding: 26px 0;
+  justify-content: space-between;
+  background-color: rgba(187, 35, 57, 1);
+  display: flex;
+  align-items: center;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 40px;
+}
+li a {
+  color: rgba(255, 255, 255, 1);
+}
+.nav-brend {
+  margin-left: 210px;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 10px 40px;
+  border-radius: 100px;
+  margin-right: 210px;
+  color: white;
+}
+.bout {
+  font-family: "Balsamiq Sans";
+  text-align: center;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  padding-top: 70px;
+  text-transform: capitalize;
+}
+.lorem {
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 4%;
+  color: rgba(36, 36, 36, 1);
+  opacity: 70%;
+  margin: 0 auto;
+}
+.if {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 8px;
+  padding-bottom: 40px;
+}
+.shop {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bite {
+  padding-left: 1106px;
+}
+.news {
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  --font-variant-numeric-figure: lining-nums;
+  --font-variant-numeric-spacing: tabular-nums;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 64px;
+}
+.card {
+  border-bottom: 1px solid #2424241a;
+  z-index: 999;
+  background-color: rgba(187, 35, 57, 1);
+  width: 1206px;
+  height: 413px;
+  margin: 0 auto;
+  border-radius: 20px;
+  .subribe {
+    font-family: "Balsamiq Sans";
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: 3%;
+    text-align: center;
+    text-transform: capitalize;
+    --font-variant-numeric-figure: lining-nums;
+    --font-variant-numeric-spacing: tabular-nums;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 25px;
+  }
+  .and {
+    font-family: "Balsamiq Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 24px;
+  }
+  .email {
+    margin-top: 64px;
+    margin-left: 107px;
+    margin-right: 22px;
+    width: 811px;
+    height: 52px;
+    background-color: rgba(187, 35, 57, 1);
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-family: "Balsamiq Sans";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: start;
+    text-transform: capitalize;
+    color: rgba(170, 170, 170, 1);
+    padding-left: 18px;
+  }
+  .submit {
+    margin-top: 64px;
+    margin-right: 21px;
+    width: 144px;
+    height: 52px;
+    border-radius: 20px;
+    background-color: rgba(187, 35, 57, 1);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+}
+.foter {
+  padding-top: 90px;
+  gap: 134px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(187, 35, 57, 1);
+}
+.jeven {
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.json {
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding-top: 22px;
+}
+.pl img {
+  margin: 0 auto;
+  justify-content: center;
+}
+.jon {
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding-top: 149px;
+}
+
+.sed {
+  display: block;
+  padding-bottom: 80px;
+}
+.home {
+  padding-top: 43px;
+  color: rgba(187, 35, 57, 1);
+}
+.sp {
+  padding: 43px 0 0 210px;
+
+  color: rgba(170, 170, 170, 1);
+}
+.contact {
+  font-family: "Balsamiq Sans";
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 70px;
+}
+.phone {
+  border: 1px solid #2d2d2d;
+  padding: 18px 18px;
+  border-radius: 50px;
+  background-color: rgb(244, 244, 244);
+  border: none;
+}
+.phome {
+  font-family: "Balsamiq Sans";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0%;
+}
+.one {
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 70%;
+}
+.cars {
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  display: flex;
+  gap: 25px;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  width: 320px;
+  height: 110px;
+  margin-left: 160px;
+  margin-top: 15px;
+}
+.cards {
+  margin-top: 40px;
+}
+.cas {
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+
+  gap: 25px;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  width: 790px;
+  height: 610px;
+  margin-left: 210px;
+  margin-top: 15px;
+}
+.send {
+  padding: 40px 195px 0 40px;
+  font-family: "Balsamiq Sans";
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 34px;
+  letter-spacing: 0%;
+}
+.if {
+  color: rgba(36, 36, 36, 1);
+  opacity: 70%;
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: start;
+  padding-left: 40px;
+  padding-top: 16px;
+}
+.oi {
+  border: none;
+  border: 1px solid #2424241a;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 345px;
+  height: 58px;
+  border-radius: 12px;
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  opacity: 60%;
+  padding-left: 20px;
+}
+.form {
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 50px;
+}
+.casser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tet {
+  text-align: start;
+  width: 710px;
+  height: 150px;
+  border-radius: 14px;
+  border: none;
+  border: 1px solid #2424241a;
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  padding-left: 20px;
+  margin-top: 20px;
+  // padding-top: 20px;
+}
+.bi {
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 40px 0 0 50px;
+  background-color: #2d2d2d;
+  color: white;
+}
+.we {
+  padding: 160px 0 40px 0;
+  text-align: center;
+  h1 {
+    font-size: 60px;
+    font-family: "Balsamiq Sans";
+    padding-bottom: 60px;
+  }
+  img {
+    padding-bottom: 120px;
+  }
+}
+
+.grill {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: "Balsamiq Sans";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.lorm {
+  padding-bottom: 20px;
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(170, 170, 170, 1);
+}
+.cake {
+  border: none;
+  border: 1px solid #2424241a;
+  width: 410px;
+  height: 594px;
+  border-radius: 14px;
+}
+.row {
+  gap: 8px;
+  padding-bottom: 20px;
+}
+.read {
+  color: rgba(187, 35, 57, 1);
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 4%;
+}
+.apr {
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 50%;
+}
+.ap {
+  display: flex;
+  justify-content: center;
+  gap: 205px;
+}
+.yangi {
+  margin-bottom: 70px;
+  background-color: rgb(245, 245, 245);
+  width: 149px;
+  height: 44px;
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  padding: 8px 32px;
+  border-radius: 100px;
+  border: 1px solid rgba(187, 35, 57, 1);
+
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 70px;
+  background-color: rgb(245, 245, 245);
+}
+.kler {
+  padding-bottom: 70px;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  padding-left: 560px;
+  background-color: white;
+}
+.btn-primary {
+  transition: 1s;
+  display: block;
+  background-color: rgba(187, 35, 57, 1);
+  margin-bottom: 20px;
+}
+.zbest {
+  background-color: rgba(187, 35, 57, 1);
+  width: 428px;
+  height: 844px;
+  border-radius: 20px;
+}
+.kent {
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  display: block;
+  padding-top: 30px;
+  letter-spacing: 0%;
+  color: rgba(187, 35, 57, 1);
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+}
+.chase {
+  padding-bottom: 25px;
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 1);
+}
+.writing {
+  background-color: rgba(187, 35, 57, 1);
+}
+.the {
+  padding-bottom: 20px;
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 110%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 1);
+}
+.Sit {
+  padding-top: 20px;
+  font-family: "Balsamiq Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 4%;
+  color: rgba(255, 255, 255, 1);
+  opacity: 70%;
+}
+.ex {
+  padding: 8px 32px;
+  border: 1px solid #ffffff;
+  background-color: rgba(187, 35, 57, 1);
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 100px;
+}
+.writing {
+  display: flex;
+  align-items: center;
+  padding-top: 144px;
+  justify-content: center;
+  gap: 98px;
+}
+.scroll {
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+.tere {
+  padding-top: 115px;
+  padding-bottom: 54px;
+  padding-right: 118px;
+  align-items: center;
+  text-align: end;
+  background-color: rgba(187, 35, 57, 1);
+}
+.driving {
+  padding-right: 30px;
+}
+.zest {
+  display: flex;
+}
+
+.btn-primarys {
+  font-family: "Balsamiq Sans";
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 10px 40px;
+  border-radius: 100px;
+
+  color: white;
+  background-color: rgba(187, 35, 57, 1);
+}
+.cakes img {
+  width: 270px;
+}
+.cakees {
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  border: 1px solid #2424241a;
+  width: 310px;
+  height: 396px;
+  border-radius: 14px;
+}
+.s {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.dish {
+  font-family: "Balsamiq Sans";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  color: rgba(187, 35, 57, 1);
+  text-transform: capitalize;
+  padding-top: 208px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+.wp {
+  padding-bottom: 180px;
+  background-color: rgba(248, 248, 248, 1);
+}
+.images {
+  width: 270px;
+  height: 183px;
+}
+.ccake {
+  border: none;
+  border: 1px solid #2424241a;
+  width: 310px;
+  height: 366px;
+  border-radius: 14px;
+}
+.rows .row {
+  gap: 20px;
+}
+.rows {
+  margin-top: 180px;
+}
+.secondary {
+  justify-content: center;
+  padding-left: 80px;
+  gap: 0;
+}
+.regular {
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-top: 120px;
+  font-family: "Balsamiq Sans";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+  color: rgba(187, 35, 57, 1);
+}
+.re {
+  font-family: "Balsamiq Sans";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+  --font-variant-numeric-figure: lining-nums;
+  --font-variant-numeric-spacing: tabular-nums;
+  color: rgba(187, 35, 57, 1);
+}
+.new {
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  --font-variant-numeric-figure: lining-nums;
+  --font-variant-numeric-spacing: tabular-nums;
+}
+.poin {
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 120px;
+  margin-bottom: 120px;
+}
+.poin img {
+  width: 1500px;
+}
+.iframe {
+  width: 1250px;
+}
+#loading {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: var(--bg-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+#loading.loading-none {
+  transition: 2s;
+  opacity: 0;
+  z-index: -999;
+}
+#loading {
+  justify-content: center;
+  align-items: center;
+}
+@keyframes ldio-yzaezf3dcmj {
+  0% {
+    top: 96px;
+    left: 96px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 18px;
+    left: 18px;
+    width: 156px;
+    height: 156px;
+    opacity: 0;
+  }
+}
+.ldio-yzaezf3dcmj div {
+  position: absolute;
+  border-width: 4px;
+  border-style: solid;
+  opacity: 1;
+  border-radius: 50%;
+  animation: ldio-yzaezf3dcmj 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.ldio-yzaezf3dcmj div:nth-child(1) {
+  border-color: #46dff0;
+  animation-delay: 0s;
+}
+.ldio-yzaezf3dcmj div:nth-child(2) {
+  border-color: #46dff0;
+  animation-delay: -0.5s;
+}
+.loadingio-spinner-ripple-2by998twmg8 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-yzaezf3dcmj {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-yzaezf3dcmj div {
+  box-sizing: content-box;
+}
+/* [ldio] generated by https://loading.io */
